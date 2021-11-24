@@ -48,7 +48,7 @@ def test_spell_number(input, expected_length):
 
 
 
-test_spell_number('2222', 121)          # 1 + 3^1 + 3^2 + 3^3 + 3^4 = 160
+test_spell_number('2222', 121)          # 1 + 3^1 + 3^2 + 3^3 + 3^4 = 121
 test_spell_number('0000000000', 1)
 test_spell_number('99999999991', 1)
 test_spell_number('18002277387', 7685)     # 1 + 4^1 + 4*3 + 4*3^2 + 4^2*3^2 + 4^3*3^2 + 4^3*3^3 + 4^3*3^4 = 7685
